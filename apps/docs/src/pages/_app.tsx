@@ -1,9 +1,9 @@
-import React from "react";
-import Docs from ".";
-import "../styles/tailwind.css";
+import React from 'react';
+import Docs from '.';
+import '../styles/tailwind.css';
 
 const Index = () => {
-  return <Docs />;
+	return <Docs />;
 };
 
 export default Index;
