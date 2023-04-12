@@ -24,6 +24,12 @@
     "prepare": "husky install",
     "postinstall": "husky install"
   },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "prettier --write"
+    ]
+  },
   "devDependencies": {
     "autoprefixer": "^10.4.14",
     "husky": "^8.0.3",
