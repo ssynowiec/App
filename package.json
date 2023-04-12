@@ -20,10 +20,14 @@
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "storybook": "turbo run storybook"
+    "storybook": "turbo run storybook",
+    "prepare": "husky install",
+    "postinstall": "husky install"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.14",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.1",
     "postcss": "^8.4.21",
     "prettier": "^2.8.7",
     "prettier-plugin-tailwindcss": "^0.2.6",
